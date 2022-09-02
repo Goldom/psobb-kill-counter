@@ -502,8 +502,12 @@ local function KillCounter(dimensions, monsterTable)
         if counter1.area ~= counter2.area then
             return counter1.area < counter2.area
         end
-
-        return counter1.getMonsterName() < counter2.getMonsterName()
+		
+		if counter1.kills == counter2.kills then
+			return counter1.getMonsterName() < counter2.getMonsterName()
+		end
+		
+		return counter1.kills > counter2.kills
     end
 
     local _makeCounter = function(dimensions, monster)
@@ -597,7 +601,7 @@ local function KillCounter(dimensions, monsterTable)
             end
         end
 
-        table.sort(this.visible, _getCounterOrder)
+        table.sort(this.all, _getCounterOrder)
     end
 
     local _buildCountersByID = function()
@@ -656,7 +660,7 @@ local function KillCounter(dimensions, monsterTable)
         end
 
         if _sortVisibleCounters then
-            table.sort(this.visible, _getCounterOrder)
+            table.sort(this.all, _getCounterOrder)
             _sortVisibleCounters = false
         end
     end
@@ -1493,9 +1497,7 @@ local function KillCounterWindow(killCounter)
         local counter
 
         imgui.Columns(2)
-        imgui.Text("Monster")
         imgui.NextColumn()
-        imgui.Text("Kills")
         imgui.NextColumn()
 
         for i,counter in ipairs(_killCounter.visible) do

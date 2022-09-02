@@ -9,140 +9,140 @@ local m = {}
 -- Changing the second value to "false" makes the enemy not appear on the monster
 -- reader.
 local m = {}
-m[0] = { 0xFFFFFFFF, false } -- Unknown
+m[0] = { 0xFF00C0C0, false } -- Unknown
 
 -- Forest
-m[1] = { 0xFFFFFFFF, true } -- Hildebear / Hildelt
-m[2] = { 0xFFFFFF00, true } -- Hildeblue / Hildetorr
-m[3] = { 0xFFFFFFFF, true } -- Mothmant / Mothvert
-m[4] = { 0xFFFFFFFF, true } -- Monest / Mothvist
-m[5] = { 0xFFFFFFFF, true } -- Rag Rappy / El Rappy
-m[6] = { 0xFFFFFF00, true } -- Al Rappy / Pal Rappy
-m[7] = { 0xFFFFFFFF, true } -- Savage Wolf / Gulgus
-m[8] = { 0xFFFFFFFF, true } -- Barbarous Wolf / Gulgus-gue
-m[9] = { 0xFFFFFFFF, true } -- Booma / Bartle
-m[10] = { 0xFFFFFFFF, true } -- Gobooma / Barble
-m[11] = { 0xFFFFFFFF, true } -- Gigobooma / Tollaw
+m[1] = { 0xFF00C0C0, true } -- Hildebear / Hildelt
+m[2] = { 0xFFF8786E, true } -- Hildeblue / Hildetorr
+m[3] = { 0xFF00C0C0, true } -- Mothmant / Mothvert
+m[4] = { 0xFF00C0C0, true } -- Monest / Mothvist
+m[5] = { 0xFF00C0C0, true } -- Rag Rappy / El Rappy
+m[6] = { 0xFFF8786E, true } -- Al Rappy / Pal Rappy
+m[7] = { 0xFF00C0C0, true } -- Savage Wolf / Gulgus
+m[8] = { 0xFF00C0C0, true } -- Barbarous Wolf / Gulgus-gue
+m[9] = { 0xFF00C0C0, true } -- Booma / Bartle
+m[10] = { 0xFF00C0C0, true } -- Gobooma / Barble
+m[11] = { 0xFF00C0C0, true } -- Gigobooma / Tollaw
 
 -- Cave
-m[12] = { 0xFFFFFFFF, true } -- Grass Assassin / Crimson Assassin
-m[13] = { 0xFFFFFFFF, true } -- Poison Lily / Ob Lily
-m[14] = { 0xFFFFFF00, true } -- Nar Lily / Mil Lily
-m[15] = { 0xFFFFFFFF, true } -- Nano Dragon
-m[16] = { 0xFFFFFFFF, true } -- Evil Shark / Vulmer
-m[17] = { 0xFFFFFFFF, true } -- Pal Shark / Govulmer
-m[18] = { 0xFFFFFFFF, true } -- Guil Shark / Melqueek
-m[19] = { 0xFFFFFFFF, true } -- Pofuilly Slime
-m[20] = { 0xFFFFFF00, true } -- Pouilly Slime
-m[21] = { 0xFFFFFFFF, true } -- Pan Arms
-m[22] = { 0xFFFFFFFF, true } -- Migium
-m[23] = { 0xFFFFFFFF, true } -- Hidoom
+m[12] = { 0xFF00C0C0, true } -- Grass Assassin / Crimson Assassin
+m[13] = { 0xFF00C0C0, true } -- Poison Lily / Ob Lily
+m[14] = { 0xFFF8786E, true } -- Nar Lily / Mil Lily
+m[15] = { 0xFF00C0C0, true } -- Nano Dragon
+m[16] = { 0xFF00C0C0, true } -- Evil Shark / Vulmer
+m[17] = { 0xFF00C0C0, true } -- Pal Shark / Govulmer
+m[18] = { 0xFF00C0C0, true } -- Guil Shark / Melqueek
+m[19] = { 0xFF00C0C0, true } -- Pofuilly Slime
+m[20] = { 0xFFF8786E, true } -- Pouilly Slime
+m[21] = { 0xFF00C0C0, true } -- Pan Arms
+m[22] = { 0xFF00C0C0, true } -- Migium
+m[23] = { 0xFF00C0C0, true } -- Hidoom
 
 -- Mine
-m[24] = { 0xFFFFFFFF, true } -- Dubchic / Dubchich
-m[25] = { 0xFFFFFFFF, true } -- Garanz / Baranz
-m[26] = { 0xFFFFFFFF, true } -- Sinow Beat / Sinow Blue
-m[27] = { 0xFFFFFFFF, true } -- Sinow Gold / Sinow Red
-m[28] = { 0xFFFFFFFF, true } -- Canadine / Canabin
-m[29] = { 0xFFFFFFFF, true } -- Canane / Canune
-m[49] = { 0xFFFFFFFF, true } -- Dubwitch
-m[50] = { 0xFFFFFFFF, true } -- Gillchic / Gillchich
+m[24] = { 0xFF00C0C0, true } -- Dubchic / Dubchich
+m[25] = { 0xFF00C0C0, true } -- Garanz / Baranz
+m[26] = { 0xFF00C0C0, true } -- Sinow Beat / Sinow Blue
+m[27] = { 0xFF00C0C0, true } -- Sinow Gold / Sinow Red
+m[28] = { 0xFF00C0C0, true } -- Canadine / Canabin
+m[29] = { 0xFF00C0C0, true } -- Canane / Canune
+m[49] = { 0xFF00C0C0, true } -- Dubwitch
+m[50] = { 0xFF00C0C0, true } -- Gillchic / Gillchich
 
 -- Ruins
-m[30] = { 0xFFFFFFFF, true } -- Delsaber
-m[31] = { 0xFFFFFFFF, true } -- Chaos Sorcerer / Gran Sorcerer
-m[32] = { 0xFFFFFFFF, true } -- Bee R / Gee R
-m[33] = { 0xFFFFFFFF, true } -- Bee L / Gee L
-m[34] = { 0xFFFFFFFF, true } -- Dark Gunner
-m[35] = { 0xFFFFFFFF, true } -- Death Gunner
-m[36] = { 0xFFFFFFFF, true } -- Dark Bringer
-m[37] = { 0xFFFFFFFF, true } -- Indi Belra
-m[38] = { 0xFFFFFFFF, true } -- Claw
-m[39] = { 0xFFFFFFFF, true } -- Bulk
-m[40] = { 0xFFFFFFFF, true } -- Bulclaw
-m[41] = { 0xFFFFFFFF, true } -- Dimenian / Arlan
-m[42] = { 0xFFFFFFFF, true } -- La Dimenian / Merlan
-m[43] = { 0xFFFFFFFF, true } -- So Dimenian / Del-D
+m[30] = { 0xFF00C0C0, true } -- Delsaber
+m[31] = { 0xFF00C0C0, true } -- Chaos Sorcerer / Gran Sorcerer
+m[32] = { 0xFF00C0C0, true } -- Bee R / Gee R
+m[33] = { 0xFF00C0C0, true } -- Bee L / Gee L
+m[34] = { 0xFF00C0C0, true } -- Dark Gunner
+m[35] = { 0xFF00C0C0, true } -- Death Gunner
+m[36] = { 0xFF00C0C0, true } -- Dark Bringer
+m[37] = { 0xFF00C0C0, true } -- Indi Belra
+m[38] = { 0xFF00C0C0, true } -- Claw
+m[39] = { 0xFF00C0C0, true } -- Bulk
+m[40] = { 0xFF00C0C0, true } -- Bulclaw
+m[41] = { 0xFF00C0C0, true } -- Dimenian / Arlan
+m[42] = { 0xFF00C0C0, true } -- La Dimenian / Merlan
+m[43] = { 0xFF00C0C0, true } -- So Dimenian / Del-D
 
 -- Episode 1 Bosses
-m[44] = { 0xFFFF0000, true } -- Dragon / Sil Dragon
-m[45] = { 0xFFFF0000, true } -- De Rol Le / Dal Ral Lie
-m[46] = { 0xFFFF0000, true } -- Vol Opt / Vol Opt ver.2
-m[47] = { 0xFFFF0000, true } -- Dark Falz
+m[44] = { 0xFFE8E58E, true } -- Dragon / Sil Dragon
+m[45] = { 0xFFE8E58E, true } -- De Rol Le / Dal Ral Lie
+m[46] = { 0xFFE8E58E, true } -- Vol Opt / Vol Opt ver.2
+m[47] = { 0xFFE8E58E, true } -- Dark Falz
 
 -- VR Temple
-m[51] = { 0xFFFFFF00, true } -- Love Rappy
-m[73] = { 0xFFFF0000, true } -- Barba Ray
-m[74] = { 0xFFFFFFFF, true } -- Pig Ray
-m[75] = { 0xFFFFFFFF, true } -- Ul Ray
-m[79] = { 0xFFFFFFFF, true } -- St. Rappy
-m[80] = { 0xFFFFFF00, true } -- Hallo Rappy
-m[81] = { 0xFFFFFF00, true } -- Egg Rappy
+m[51] = { 0xFFF8786E, true } -- Love Rappy
+m[73] = { 0xFFE8E58E, true } -- Barba Ray
+m[74] = { 0xFF00C0C0, true } -- Pig Ray
+m[75] = { 0xFF00C0C0, true } -- Ul Ray
+m[79] = { 0xFF00C0C0, true } -- St. Rappy
+m[80] = { 0xFFF8786E, true } -- Hallo Rappy
+m[81] = { 0xFFF8786E, true } -- Egg Rappy
 
 -- VR Spaceship
-m[76] = { 0xFFFF0000, true } -- Gol Dragon
+m[76] = { 0xFFE8E58E, true } -- Gol Dragon
 
 -- Central Control Area
-m[52] = { 0xFFFFFFFF, true } -- Merillia
-m[53] = { 0xFFFFFFFF, true } -- Meriltas
-m[54] = { 0xFFFFFFFF, true } -- Gee
-m[55] = { 0xFFFF8080, true } -- Gi Gue
-m[56] = { 0xFFFF8080, true } -- Mericarol
-m[57] = { 0xFFFF8080, true } -- Merikle
-m[58] = { 0xFFFF8080, true } -- Mericus
-m[59] = { 0xFFFFFFFF, true } -- Ul Gibbon
-m[60] = { 0xFFFFFFFF, true } -- Zol Gibbon
-m[61] = { 0xFFFF8080, true } -- Gibbles
-m[62] = { 0xFFFFFFFF, true } -- Sinow Berill
-m[63] = { 0xFFFFFFFF, true } -- Sinow Spigell
-m[77] = { 0xFFFF0000, true } -- Gal Gryphon
-m[82] = { 0xFFFFFFFF, true } -- Ill Gill
-m[83] = { 0xFFFFFFFF, true } -- Del Lily
-m[84] = { 0xFFFF8080, true } -- Epsilon
-m[87] = { 0xFFFFFFFF, true } -- Epsigard
+m[52] = { 0xFF00C0C0, true } -- Merillia
+m[53] = { 0xFF00C0C0, true } -- Meriltas
+m[54] = { 0xFF00C0C0, true } -- Gee
+m[55] = { 0xFF00C0C0, true } -- Gi Gue
+m[56] = { 0xFF00C0C0, true } -- Mericarol
+m[57] = { 0xFF00C0C0, true } -- Merikle
+m[58] = { 0xFF00C0C0, true } -- Mericus
+m[59] = { 0xFF00C0C0, true } -- Ul Gibbon
+m[60] = { 0xFF00C0C0, true } -- Zol Gibbon
+m[61] = { 0xFF00C0C0, true } -- Gibbles
+m[62] = { 0xFF00C0C0, true } -- Sinow Berill
+m[63] = { 0xFF00C0C0, true } -- Sinow Spigell
+m[77] = { 0xFFE8E58E, true } -- Gal Gryphon
+m[82] = { 0xFF00C0C0, true } -- Ill Gill
+m[83] = { 0xFF00C0C0, true } -- Del Lily
+m[84] = { 0xFF00C0C0, true } -- Epsilon
+m[87] = { 0xFF00C0C0, true } -- Epsigard
 
 -- Seabed
-m[64] = { 0xFFFFFFFF, true } -- Dolmolm
-m[65] = { 0xFFFFFFFF, true } -- Dolmdarl
-m[66] = { 0xFFFFFFFF, true } -- Morfos
-m[67] = { 0xFFFFFFFF, true } -- Recobox
-m[68] = { 0xFFFFFFFF, true } -- Recon
-m[69] = { 0xFFFFFFFF, true } -- Sinow Zoa
-m[70] = { 0xFFFFFFFF, true } -- Sinow Zele
-m[71] = { 0xFFFFFFFF, true } -- Deldepth
-m[72] = { 0xFFFFFFFF, true } -- Delbiter
-m[78] = { 0xFFFF0000, true } -- Olga Flow
-m[85] = { 0xFFFFFFFF, true } -- Gael
-m[86] = { 0xFFFFFFFF, true } -- Giel
+m[64] = { 0xFF00C0C0, true } -- Dolmolm
+m[65] = { 0xFF00C0C0, true } -- Dolmdarl
+m[66] = { 0xFF00C0C0, true } -- Morfos
+m[67] = { 0xFF00C0C0, true } -- Recobox
+m[68] = { 0xFF00C0C0, true } -- Recon
+m[69] = { 0xFF00C0C0, true } -- Sinow Zoa
+m[70] = { 0xFF00C0C0, true } -- Sinow Zele
+m[71] = { 0xFF00C0C0, true } -- Deldepth
+m[72] = { 0xFF00C0C0, true } -- Delbiter
+m[78] = { 0xFFE8E58E, true } -- Olga Flow
+m[85] = { 0xFF00C0C0, true } -- Gael
+m[86] = { 0xFF00C0C0, true } -- Giel
 
 -- Crater
-m[88] = { 0xFFFFFFFF, true } -- Astark
-m[89] = { 0xFFFFFFFF, true } -- Yowie
-m[90] = { 0xFFFFFFFF, true } -- Satellite Lizard
-m[94] = { 0xFFFFFFFF, true } -- Zu
-m[95] = { 0xFFFFFF00, true } -- Pazuzu
-m[96] = { 0xFFFFFFFF, true } -- Boota
-m[97] = { 0xFFFFFFFF, true } -- Za Boota
-m[98] = { 0xFFFFFFFF, true } -- Ba Boota
-m[99] = { 0xFFFFFFFF, true } -- Dorphon
-m[100] = { 0xFFFFFF00, true } -- Dorphon Eclair
-m[104] = { 0xFFFFFFFF, true } -- Sand Rappy
-m[105] = { 0xFFFFFF00, true } -- Del Rappy
+m[88] = { 0xFF00C0C0, true } -- Astark
+m[89] = { 0xFF00C0C0, true } -- Yowie
+m[90] = { 0xFF00C0C0, true } -- Satellite Lizard
+m[94] = { 0xFF00C0C0, true } -- Zu
+m[95] = { 0xFFF8786E, true } -- Pazuzu
+m[96] = { 0xFF00C0C0, true } -- Boota
+m[97] = { 0xFF00C0C0, true } -- Za Boota
+m[98] = { 0xFF00C0C0, true } -- Ba Boota
+m[99] = { 0xFF00C0C0, true } -- Dorphon
+m[100] = { 0xFFF8786E, true } -- Dorphon Eclair
+m[104] = { 0xFF00C0C0, true } -- Sand Rappy
+m[105] = { 0xFFF8786E, true } -- Del Rappy
 
 -- Desert
-m[91] = { 0xFFFFFFFF, true } -- Merissa A
-m[92] = { 0xFFFFFF00, true } -- Merissa AA
-m[93] = { 0xFFFFFFFF, true } -- Girtablulu
-m[101] = { 0xFFFFFFFF, true } -- Goran
-m[102] = { 0xFFFFFFFF, true } -- Goran Detonator
-m[103] = { 0xFFFFFFFF, true } -- Pyro Goran
-m[106] = { 0xFFFF0000, true } -- Saint-Milion
-m[107] = { 0xFFFF0000, true } -- Shambertin
+m[91] = { 0xFF00C0C0, true } -- Merissa A
+m[92] = { 0xFFF8786E, true } -- Merissa AA
+m[93] = { 0xFF00C0C0, true } -- Girtablulu
+m[101] = { 0xFF00C0C0, true } -- Goran
+m[102] = { 0xFF00C0C0, true } -- Goran Detonator
+m[103] = { 0xFF00C0C0, true } -- Pyro Goran
+m[106] = { 0xFFE8E58E, true } -- Saint-Milion
+m[107] = { 0xFFE8E58E, true } -- Shambertin
 m[108] = { 0xFFFF8000, true } -- Kondrieu
 
 -- Other
-m[48] = { 0xFFFFFFFF, true } -- Container
-m[999] = { 0xFFFFFFFF, true } -- Darvant
+m[48] = { 0xFF00C0C0, true } -- Container
+m[999] = { 0xFF00C0C0, true } -- Darvant
 
 return 
 {
